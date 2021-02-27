@@ -8,7 +8,7 @@
 Summary:	Add .env support to your django/flask apps in development and deployments
 Name:		python-%{module}
 Version:	0.13.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/python-dotenv/
