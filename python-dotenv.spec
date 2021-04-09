@@ -7,13 +7,13 @@
 %define		egg_name	python_dotenv
 Summary:	Add .env support to your django/flask apps in development and deployments
 Name:		python-%{module}
-Version:	0.13.0
-Release:	2
+Version:	0.17.0
+Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/python-dotenv/
 Source0:	https://files.pythonhosted.org/packages/source/p/python-dotenv/%{pypi_name}-%{version}.tar.gz
-# Source0-md5:	3dfde58c6a5fbd41292c4039a68f70f4
+# Source0-md5:	664e1fd991a2dd109c95b743bb9eecd5
 URL:		https://pypi.org/project/python-dotenv/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.5
